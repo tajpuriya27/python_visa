@@ -1,0 +1,14 @@
+38.154.227.167:5868:bxuzrwgx:lbvnmybo6jez
+45.127.248.127:5128:bxuzrwgx:lbvnmybo6jez
+64.64.118.149:6732:bxuzrwgx:lbvnmybo6jez
+167.160.180.203:6754:bxuzrwgx:lbvnmybo6jez
+166.88.58.10:5735:bxuzrwgx:lbvnmybo6jez
+173.0.9.70:5653:bxuzrwgx:lbvnmybo6jez
+45.151.162.198:6600:bxuzrwgx:lbvnmybo6jez
+204.44.69.89:6342:bxuzrwgx:lbvnmybo6jez
+173.0.9.209:5792:bxuzrwgx:lbvnmybo6jez
+206.41.172.74:6634:bxuzrwgx:lbvnmybo6jez
+geo.iproyal.com:12321:6E6CWZnOqRXnw9Zt:k5fziXlSWuEDtAMy
+pr.vf8bp1jd.lunaproxy.net:12233:user-lu8799918:Tixa4ever
+eu.vf8bp1jd.lunaproxy.net:12233:user-lu8799918-region-pt:Tixa4ever
+geo.iproyal.com:12321:letinnow:nowwearefreetoin_country-pt_streaming-1
