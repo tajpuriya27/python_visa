@@ -1,6 +1,6 @@
 import requests
 
-PROXY_TEST_URL = "http://httpbin.org/ip"  # Replace with the URL you want to test against
+PROXY_TEST_URL = "https://visa.vfsglobal.com/cpv/en/prt/login"  # Replace with the URL you want to test against
 
 
 def check_proxy(proxy):
@@ -53,7 +53,7 @@ def active_proxies(proxies_list):
 
 
 if __name__ == "__main__":
-    with open('webshare_proxies.txt', 'r') as file:
+    with open('proxies.txt', 'r') as file:
         proxies_list = [line.strip() for line in file.readlines()]
 
     # proxies_list = [
