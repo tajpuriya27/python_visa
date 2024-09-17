@@ -15,12 +15,18 @@ def check_proxy(proxy):
     """
     try:
         ip, port, user, password = proxy.split(':')
-        proxy_url = f"http://{user}:{password}@{ip}:{port}"
+        proxy_url = f"http://letinnow:nowwearefreetoin_country-pt_streaming-1@geo.iproyal.com:12321"
         proxies = {
             "http": proxy_url,
             "https": proxy_url,
         }
-        response = requests.get(PROXY_TEST_URL, proxies=proxies, timeout=5)
+
+        headers = {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+        }
+
+        response = requests.get(PROXY_TEST_URL, proxies=proxies, headers=headers, timeout=10)
+        print("code",response.status_code)
         if response.status_code == 200:
             return {"proxy": proxy, "status": "working", "response": response.json()}
         else:
@@ -63,3 +69,4 @@ if __name__ == "__main__":
 
     working_proxies = active_proxies(proxies_list)
     print("Working proxies:", working_proxies)
+    # check_proxy("geo.iproyal.com:12321:9bQw2qGXz6LHamrw:K1tuecJ2QBHKrIZO_country-ae")
