@@ -11,9 +11,9 @@ load_dotenv()
 
 # Constants
 PROXIES_LIST = [
-    # 'geo.iproyal.com:12321:letinnow:nowwearefreetoin_country-pt_streaming-1',
+    'geo.iproyal.com:12321:letinnow:nowwearefreetoin_country-pt_streaming-1',
     # 'eu.vf8bp1jd.lunaproxy.net:12233:user-lu8799918-region-pt:Tixa4ever',
-    '64.137.60.43:5107:csboqgsx:45j53sy19zg5'
+    # '64.137.60.43:5107:csboqgsx:45j53sy19zg5'
 ]
 
 C_CODE = 'cpv'

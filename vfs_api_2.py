@@ -124,8 +124,8 @@ def use_proxy(proxy, captcha_token, encrypted_password):
 
     try:
 
-        otp_code = input("Enter OTP code: ")
-        # otp_code = "743140"
+        # otp_code = input("Enter OTP code: ")
+        otp_code = "482666"
         login(captcha_token, EMAIL, encrypted_password, otp_code)
 
         '''Here you can check headers and cookies after login success'''

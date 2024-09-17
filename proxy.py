@@ -1,6 +1,6 @@
 import requests
 
-PROXY_TEST_URL = "https://visa.vfsglobal.com/cpv/en/prt/login"  # Replace with the URL you want to test against
+PROXY_TEST_URL = "http://httpbin.org/ip"  # Replace with the URL you want to test against
 
 
 def check_proxy(proxy):
